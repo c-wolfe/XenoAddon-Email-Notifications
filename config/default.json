@@ -1,0 +1,115 @@
+{
+  "server_subdomain_oncreate": {
+    "value": false,
+    "long_name": "Servers Sub-Domain Create",
+    "long_details": "Send an email to a client when a sub-domain has been created for one of their servers",
+    "preg_replace": "select",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_ports_oncreate": {
+    "value": false,
+    "long_name": "Servers Extra-Ports Create",
+    "long_details": "Send an email to a client when one of their services have been allocated more ports",
+    "preg_replace": "select",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_ports_ondelete": {
+    "value": false,
+    "long_name": "Servers Extra-Ports Remove",
+    "long_details": "Send an email to a client when one of their services has had extra allocated ports revoked.",
+    "preg_replace": "select",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_mysql_oncreate": {
+    "value": false,
+    "long_name": "Servers MySQL Create",
+    "long_details": "Send an email to a client when they have had a MySQL database allocated to their service.",
+    "preg_replace": "select",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_mysql_ondelete": {
+    "value": false,
+    "long_name": "Servers MySQL Remove",
+    "long_details": "Send an email to a client when they have had their MySQL database destroyed from their server.",
+    "preg_replace": "select",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_migration_oncreate": {
+    "value": false,
+    "long_name": "Servers Migration Create",
+    "long_details": "Send an email to the client notifying them that their migration request has been created",
+    "preg_replace": "select",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_ftp_on_ftp_reset": {
+    "value": false,
+    "long_name": "Server FTP Reset",
+    "long_details": "Send an email to the client notifying them that their FTP credentials have been reset",
+    "preg_replace": "select",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_console_on_kill": {
+    "value": false,
+    "long_name": "Server Kill",
+    "long_details": "Send an email to the client notifying them that their server has been killed",
+    "preg_replace": "select",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_console_on_stop": {
+    "value": false,
+    "long_name": "Server Stop",
+    "long_details": "Send an email to the client notifying them that their server has been stopped.",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_console_on_start": {
+    "value": false,
+    "long_name": "Server Start",
+    "long_details": "Send an email to the client notifying them that their server has been started.",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_config_jar_change": {
+    "value": false,
+    "long_name": "Server Config Jar",
+    "long_details": "Send an email to the client notifying them that their server's jar has been changed.",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_config_name_change": {
+    "value": false,
+    "long_name": "Server Config Name",
+    "long_details": "Send an email to the client notifying them that their server's name has been changed.",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_config_slots_change": {
+    "value": false,
+    "long_name": "Server Config Name",
+    "long_details": "Send an email to the client notifying them that their server's slot count has been changed.",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_backups_on_create": {
+    "value": false,
+    "long_name": "Server Backup Create",
+    "long_details": "Send an email to the client notifying them that a backup has been created for their server.",
+    "extra": "",
+    "extra_details": ""
+  },
+  "server_backups_on_delete": {
+    "value": false,
+    "long_name": "Server Backup Delete",
+    "long_details": "Send an email to the client notifying them that a backup has been deleted for their server.",
+    "extra": "",
+    "extra_details": ""
+  }
+}
